@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Tab Manager",
-  "version": "1.0",
-  "description": "A simple tab manager extension.",
-  "permissions": ["tabs", "storage"],
+  "version": "1.1",
+  "description": "A feature-rich tab manager extension with export, search, and dark mode.",
+  "permissions": ["tabs", "storage", "sessions", "downloads"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
